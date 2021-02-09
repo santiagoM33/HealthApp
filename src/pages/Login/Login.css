@@ -1,0 +1,11 @@
+
+.form-container{
+    font-weight: 500;
+}
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}

@@ -1,0 +1,12 @@
+:scope{
+    --alert:#f44336;
+}
+/* The alert message box */
+.alert {
+  padding: 1.5rem;
+  background-color: var(--alert); /* Red */
+  color: white;
+  margin-bottom: 15px;
+  border-radius: 0.3rem;
+  font-size: 1.1rem;
+}

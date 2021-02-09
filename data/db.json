@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "user": "santiago monaco",
+      "code": "07600",
+      "phone": "6973571",
+      "email": "santiago.monaco33@gmail.com",
+      "id": "02ea7b53-2e7e-4044-bd6b-60406e7b47fe",
+      "password": "JLOLi1Mly7"
+    },
+    {
+      "user": "Marcos Monaco",
+      "code": "78549",
+      "phone": "6973571",
+      "email": "nano.mc@gmail.com",
+      "id": "9bdc824a-43b2-4779-b0d3-272c90613961",
+      "password": "m0REGiuzlQ"
+    },
+    {
+      "user": "Javier Milei",
+      "code": "78458",
+      "phone": "2236977",
+      "email": "javier.m@gmail.com",
+      "id": "38938973-f827-429e-bca5-287b1bdf6408",
+      "password": "GcvAsD0wGA"
+    },
+    {
+      "user": "Jose campos",
+      "code": "78458",
+      "phone": "2236971",
+      "email": "billy_the_killer@gmail.com",
+      "id": "2e30024f-4b3e-403f-aecd-1027dc8711fa",
+      "password": "6iPKr2QoQI"
+    }
+  ]
+}

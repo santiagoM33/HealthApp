@@ -1,0 +1,42 @@
+:scope{
+    --sucess: #4CAF50;
+    --info: #2196F3;
+    --warning: #ff9800;
+    --danger: #f44336;
+    --other-bg: #e7e7e7; /*color: black*/
+}
+
+
+.msg-success{
+    color: #fff;
+    background-color: var(--sucess);
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+.msg-error{
+    color: var(--danger);
+    opacity: 0.7;
+    font-weight: lighter;
+}
+
+
+/*----------Alerts------------*/
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    margin-top: 0.5rem;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 24px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
