@@ -108,13 +108,8 @@ const Login = () => {
     
 
     return ( 
-        <main className='container'>
-            {isLogin 
-            ?   <Fragment>
-                    <Header src='./images/logo/USHEALTH2.jpeg' />
-                </Fragment>
-                
-            :   <div className='login-content'>
+        <main className='container'> 
+            <div className='login-content'>
                 <Header src='./images/logo/USHEALTH2.jpeg' />
                 <Title text='Welcome Back'/>
                 {hasError &&
@@ -157,7 +152,6 @@ const Login = () => {
                     btn='btn bg-danger text-light'
                 />
             </div>
-            }
         </main>
      );
 }
