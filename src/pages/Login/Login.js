@@ -1,4 +1,4 @@
-import React, {Fragment, useState} from 'react';
+import React, {useState} from 'react';
 //---------Registro de Cookies----------
 import Cookies from 'universal-cookie';
 //--------------Funciones de la BD---------------
@@ -32,7 +32,7 @@ const Login = () => {
     const [password, setPassword] = useState('');
     const [passwordError, setPasswordError] = useState(false);
     /*---------------LOGIN--------------*/
-    const [isLogin, setIsLogin] = useState(false);
+    //const [isLogin, setIsLogin] = useState(false);
     /*---------------ERRORES--------------*/
     const [hasError, setHasError] = useState(false);
     //const [isLoading, setIsLoading] = useState(false);
@@ -90,13 +90,13 @@ const Login = () => {
                         
                         window.location.href='/Welcome';
 
-                    setIsLogin(true)
+                    //setIsLogin(true)
                 } else {
-                    setIsLogin(false)
+                    //setIsLogin(false)
                     setHasError(true)
                 }
             } else {
-                setIsLogin(false)
+                //setIsLogin(false)
                 setHasError(true)
             }  
         })
